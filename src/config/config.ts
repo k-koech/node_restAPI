@@ -1,13 +1,5 @@
 export const config = {
   "dev": {
-    // "username": "postgres",
-    // "password": "4477",
-    // "database": "aws",
-    // "host": "127.0.0.1",
-    // "dialect": "postgres",
-    // "aws_region": "us-east-1f",
-    // "aws_profile": "default",
-    // "aws_media_bucket": "udagram-ruttner-devs"
     "username": process.env.postgres_username,
     "password": process.env.postgres_password,
     "database": process.env.database_name,
