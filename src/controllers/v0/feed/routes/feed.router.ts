@@ -33,7 +33,7 @@ router.get('/:id',
         
 });
 
-// update a specific resource
+// update a specific feed
 router.patch('/update/', 
     requireAuth, 
     async (req: Request, res: Response) => {
