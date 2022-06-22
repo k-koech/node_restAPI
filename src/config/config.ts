@@ -11,7 +11,7 @@ export const config = {
 
   },
   "jwt": {
-    "secret": " "
+    "secret": "IYDUTERZFHDCRXD"
   },
   "prod": {
     "username": "",
